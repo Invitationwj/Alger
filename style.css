@@ -80,18 +80,18 @@ footer {
 .flower-right {
   right: 0;
 }
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
 body {
-  font-family: 'Playfair Display', serif;
-  color: #2e2e2e;
+  font-family: 'Libre Baskerville', serif;
 }
 
-h1, h2, .romantic {
-  font-family: 'Parisienne', cursive;
-}
 
-form, input, label {
-  font-family: 'Quicksand', sans-serif;
-}
+
+
 button, input[type="submit"] {
   background-color: #f9e5e5; /* rose poudré */
   color: #5a3e36; /* brun doux */
