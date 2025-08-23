@@ -1,38 +1,37 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Invitation Mariage</title>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>W & W – Wedding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <!-- Import de la police calligraphiée -->
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <div class="flowers left"></div>
-    <div class="content">
-      <h1>Invitation au Mariage</h1>
-      <p>Nous serons honorés de votre présence à notre mariage.</p>
-      
-      <form action="https://formspree.io/f/xxxxxx" method="POST" class="formulaire">
-        <label>Votre nom</label>
-        <input type="text" name="nom" required>
-
-        <label>Présence</label>
-        <select name="presence" required>
-          <option value="oui">Oui, je viens</option>
-          <option value="non">Non, je ne peux pas venir</option>
-        </select>
-
-        <label>Allergies / restrictions alimentaires</label>
-        <textarea name="allergies" rows="3"></textarea>
-
-        <button type="submit">Envoyer</button>
-      </form>
+  <header class="hero" style="background-image: url('cover.jpg');">
+    <nav class="nav">
+      <ul><li><a href="#">Accueil</a></li><li><a href="#">Histoire</a></li><li><a href="#">Photos</a></li><li><a href="#">RSVP</a></li></ul>
+    </nav>
+    <div class="headline">
+      <h1>W &amp; W</h1>
+      <p>15 Mars 2025 • Paris, France</p>
     </div>
-    <div class="flowers right"></div>
-  </div>
+  </header>
+
+  <section class="rsvp" id="RSVP">
+    <h2>Confirmez votre présence</h2>
+    <form action="https://formspree.io/f/TON_ID" method="POST">
+      <input type="text" name="nom" placeholder="Votre nom">
+      <select name="presence">
+        <option value="">Serez-vous présent·e ?</option>
+        <option value="oui">Oui</option>
+        <option value="non">Non</option>
+      </select>
+      <textarea name="allergies" rows="3" placeholder="Allergies / restrictions (facultatif)"></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
 </body>
 </html>
 
