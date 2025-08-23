@@ -123,3 +123,9 @@ h1, h2, .titre-mariage {
 }
 
 
+.flower {
+  display: block;
+  max-width: 200px;
+  margin: 20px auto 0 auto; /* centre l'image */
+  height: auto;
+}
