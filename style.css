@@ -81,15 +81,6 @@ footer {
   right: 0;
 }
 
-h1 {
-  font-family: 'Great Vibes', cursive;
-}
-
-body {
-  font-family: 'Libre Baskerville', serif;
-}
-
-
 
 
 button, input[type="submit"] {
@@ -118,3 +109,10 @@ button:hover, input[type="submit"]:hover {
   margin: 10px auto; /* espace autour + centrage */
 }
 
+body {
+  font-family: 'Roboto', sans-serif; /* Pour le corps du texte */
+}
+
+h1, h2, .titre-mariage {
+  font-family: 'Playfair Display', serif; /* Pour les titres */
+}
