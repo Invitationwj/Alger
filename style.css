@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   background: #f9f6f3;
-  font-family: 'Helvetica Neue', sans-serif;
   color: #333;
   text-align: center;
 }
@@ -103,8 +102,8 @@ button:hover, input[type="submit"]:hover {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 .ligne-sous-titre {
-  width: 150px;      /* largeur de la ligne */
-  height: 2px;       /* épaisseur de la ligne */
+  width: 400px;      /* largeur de la ligne */
+  height: 3px;       /* épaisseur de la ligne */
   background-color: #ccc;  /* couleur de la ligne */
   margin: 10px auto; /* espace autour + centrage */
 }
