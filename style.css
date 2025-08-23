@@ -1,66 +1,94 @@
+/* Style général */
 body {
   margin: 0;
-  padding: 0;
   font-family: 'Georgia', serif;
-  background-color: #fffaf7;
-  color: #4b3e2e;
+  background: #fdfcf9;
+  color: #444;
 }
 
+/* Conteneur principal */
 .container {
-  max-width: 600px;
-  margin: 80px auto;
-  padding: 20px;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+/* Zone centrale */
+.content {
+  max-width: 500px;
   text-align: center;
-  background-color: #fff;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-.fleurs {
-  position: absolute;
-  width: 120px;
-  top: -20px;
+h1 {
+  font-family: 'Cursive', serif;
+  font-size: 2.2em;
+  color: #7a4c29;
+  margin-bottom: 10px;
 }
 
-.fleurs.gauche {
-  left: -100px;
+p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
 }
 
-.fleurs.droite {
-  right: -100px;
+/* Fleurs */
+.flowers {
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.titre {
-  font-size: 2rem;
-  margin-bottom: 30px;
+.flowers.left {
+  background-image: url("fleurs-gauche.png");
 }
 
+.flowers.right {
+  background-image: url("fleurs-droite.png");
+}
+
+/* Formulaire */
 .formulaire {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 12px;
 }
 
-input, select, textarea {
+.formulaire label {
+  font-weight: bold;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.formulaire input,
+.formulaire select,
+.formulaire textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 1rem;
+  font-size: 1em;
   font-family: inherit;
 }
 
-button {
-  background-color: #d6b89c;
+.formulaire button {
+  background: #7a4c29;
   color: white;
-  border: none;
   padding: 12px;
-  font-size: 1rem;
+  border: none;
   border-radius: 6px;
+  font-size: 1em;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: 0.3s;
 }
 
-button:hover {
-  background-color: #b79d85;
+.formulaire button:hover {
+  background: #5e371f;
 }
+
