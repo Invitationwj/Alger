@@ -111,4 +111,10 @@ button:hover, input[type="submit"]:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
+.ligne-sous-titre {
+  width: 150px;      /* largeur de la ligne */
+  height: 2px;       /* épaisseur de la ligne */
+  background-color: #ccc;  /* couleur de la ligne */
+  margin: 10px auto; /* espace autour + centrage */
+}
 
