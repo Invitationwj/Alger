@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fffaf7;
+  color: #4b3e2e;
+}
+
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.fleurs {
+  position: absolute;
+  width: 120px;
+  top: -20px;
+}
+
+.fleurs.gauche {
+  left: -100px;
+}
+
+.fleurs.droite {
+  right: -100px;
+}
+
+.titre {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+button {
+  background-color: #d6b89c;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #b79d85;
+}
