@@ -115,9 +115,11 @@ button:hover, input[type="submit"]:hover {
 }
 
 body {
-  font-family: 'Roboto', sans-serif; /* Pour le corps du texte */
+  font-family: 'Cormorant Garamond', serif;
 }
 
 h1, h2, .titre-mariage {
   font-family: 'Playfair Display', serif; /* Pour les titres */
 }
+
+
