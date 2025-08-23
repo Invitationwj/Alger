@@ -80,4 +80,16 @@ footer {
 .flower-right {
   right: 0;
 }
+body {
+  font-family: 'Playfair Display', serif;
+  color: #2e2e2e;
+}
+
+h1, h2, .romantic {
+  font-family: 'Parisienne', cursive;
+}
+
+form, input, label {
+  font-family: 'Quicksand', sans-serif;
+}
 
