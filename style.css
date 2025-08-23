@@ -92,4 +92,23 @@ h1, h2, .romantic {
 form, input, label {
   font-family: 'Quicksand', sans-serif;
 }
+button, input[type="submit"] {
+  background-color: #f9e5e5; /* rose poudré */
+  color: #5a3e36; /* brun doux */
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #f4d3d3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
 
