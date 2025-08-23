@@ -1,37 +1,86 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF‑8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>W & W – Wedding</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Invitation au Mariage de Wafa</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fff8f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      background-color: #ffffffcc;
+      padding: 30px;
+      margin: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+      color: #aa6c39;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #333;
+      margin-bottom: 2em;
+    }
+
+    .checkboxes {
+      text-align: left;
+      margin-bottom: 2em;
+    }
+
+    label {
+      font-size: 1em;
+      display: block;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    .footer {
+      font-style: italic;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
-  <header class="hero" style="background-image: url('cover.jpg');">
-    <nav class="nav">
-      <ul><li><a href="#">Accueil</a></li><li><a href="#">Histoire</a></li><li><a href="#">Photos</a></li><li><a href="#">RSVP</a></li></ul>
-    </nav>
-    <div class="headline">
-      <h1>W &amp; W</h1>
-      <p>15 Mars 2025 • Paris, France</p>
-    </div>
-  </header>
 
-  <section class="rsvp" id="RSVP">
-    <h2>Confirmez votre présence</h2>
-    <form action="https://formspree.io/f/TON_ID" method="POST">
-      <input type="text" name="nom" placeholder="Votre nom">
-      <select name="presence">
-        <option value="">Serez-vous présent·e ?</option>
-        <option value="oui">Oui</option>
-        <option value="non">Non</option>
-      </select>
-      <textarea name="allergies" rows="3" placeholder="Allergies / restrictions (facultatif)"></textarea>
-      <button type="submit">Envoyer</button>
-    </form>
-  </section>
+  <div class="container">
+    <h1>Invitation au mariage de Wafa</h1>
+    <p>
+      Vous êtes chaleureusement invité·e à célébrer la <strong>Fatha</strong> de Wafa<br>
+      le <strong>1er novembre à 19h</strong><br>
+      dans sa maison d’enfance à <strong>Ben Ankoun</strong>.
+    </p>
+
+    <div class="checkboxes">
+      <label><input type="checkbox" name="presence" value="oui"> Je serai présent·e</label>
+      <label><input type="checkbox" name="presence" value="non"> Je ne pourrai pas venir</label>
+    </div>
+
+    <div class="footer">
+      Merci de répondre au plus vite 💌
+    </div>
+  </div>
+
 </body>
 </html>
 
