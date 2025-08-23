@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invitation Mariage</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <img src="fleurs-gauche.png" alt="Fleurs gauche" class="fleurs gauche" />
+    <img src="fleurs-droite.png" alt="Fleurs droite" class="fleurs droite" />
+
+    <h1 class="titre">Invitation au Mariage</h1>
+
+    <form action="https://formspree.io/f/yourformid" method="POST" class="formulaire">
+      <label for="nom">Nom :</label>
+      <input type="text" name="nom" id="nom" required />
+
+      <label for="presence">Serez-vous présent(e) ?</label>
+      <select name="presence" id="presence" required>
+        <option value="oui">Oui</option>
+        <option value="non">Non</option>
+      </select>
+
+      <label for="allergies">Allergies ou intolérances :</label>
+      <textarea name="allergies" id="allergies" rows="3"></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+</body>
+</html>
