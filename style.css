@@ -66,6 +66,10 @@ footer {
    .conteneur-texte {
      width: 100%;
    }
+   .hero {
+       width: 100%;
+        padding: 0 0px;
+      }
    .ligne-sous-titre {
        max-width: 20%;
       }
