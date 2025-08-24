@@ -62,14 +62,14 @@ footer {
 }
 
 button, input[type="submit"] {
-  background-color: #A8E6A3; /* rose poudré */
-  color: #fefefe /* brun doux */
+  background-color: #A8E6A3; 
+  color: #fefefe 
   border: none;
   padding: 12px 28px;
   border-radius: 30px;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
-  font-weight: bold;
+font-color: #666; 
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
@@ -106,13 +106,13 @@ h1, h2, .titre-mariage {
 form input[type="text"],
 form input[type="email"],
 form textarea {
-    width: 25%%;
+    width: 35%;
     padding: 12px;
     margin-bottom: 15px;
     border: none;
     background-color: #fefefe;
     }
     input[type="checkbox"] {
-  margin-right: 10px;
-  border: 1px solid #ccc;
+  margin-right: 20px;
+  border: none;
 }
