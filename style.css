@@ -66,6 +66,7 @@ footer {
    .conteneur-texte {
      width: 100%;
     padding: 30px 20px;
+      max-width: 100%;
     box-sizing: border-box;
    }
    .hero {
@@ -134,7 +135,7 @@ form textarea {
 .conteneur-texte {
   background-color: rgba(255, 255, 255, 0.9); /* fond blanc translucide */
   padding: 40px;
-   max-width: 60%;
+  max-width: 60%;
   margin: 60px auto;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
