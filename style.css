@@ -1,6 +1,6 @@
 
 body {
-    background: url("flowerback.png") left top no-repeat,
+    background: url("flowerback.png") left top no-repeat
     background-size: cover; /* taille des images (tu peux ajuster) */
     background-color: #fffaf6; /* une couleur de fond douce */
     margin: 0;
