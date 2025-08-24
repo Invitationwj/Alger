@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;            /* pas de répétition */
   background-color: #fffaf6;               /* couleur de secours */
   margin: 0;
+text-align: center;
   padding: 0;
 }
 
