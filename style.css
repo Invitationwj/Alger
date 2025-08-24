@@ -6,7 +6,8 @@ body {
   background-repeat: no-repeat;            /* pas de répétition */
   background-color: #fffaf6;               /* couleur de secours */
   margin: 0;
-  padding: 0;
+padding: 0 10px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .hero {
@@ -89,14 +90,9 @@ button:hover, input[type="submit"]:hover {
   margin: 10px auto; /* espace autour + centrage */
 }
 
-body {
-  font-family: 'Cormorant Garamond', serif;
-}
-
 h1, h2, .titre-mariage {
   font-family: 'Cormorant Garamond', serif; /* Pour les titres */
 }
-
 
 .flower {
   display: block;
@@ -121,8 +117,9 @@ form textarea {
 .conteneur-texte {
   background-color: rgba(255, 255, 255, 0.9); /* fond blanc translucide */
   padding: 40px;
-  max-width: 600px;
-  margin: 0 auto;
+   max-width: 90%;
+  margin: 60px auto;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
