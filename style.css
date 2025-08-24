@@ -1,7 +1,7 @@
 
 body {
-    background: url("flower-right.png") left top no-repeat,
-                url("fleur-left.png") right bottom no-repeat;
+    /*background: url("flower-right.png") left top no-repeat,
+                url("fleur-left.png") right bottom no-repeat;*/
     background-size: cover; /* taille des images (tu peux ajuster) */
     background-color: #fffaf6; /* une couleur de fond douce */
     margin: 0;
@@ -12,7 +12,7 @@ body {
 }
 .hero {
   padding: 100px 20px 60px;
-    background-color: #fffaf6;
+    /*background-color: #fffaf6;*/
 }
 
 h1 {
