@@ -1,12 +1,13 @@
 
 body {
-  margin: 0;
-  padding: 0;
-  background: #f9f6f3;
-  color: #333;
-  text-align: center;
+    background: url("flower-right.png") left top no-repeat,
+                url("fleur-left.png") right bottom no-repeat;
+    background-size: 250px, 250px; /* taille des images (tu peux ajuster) */
+    background-color: #fffaf6; /* une couleur de fond douce */
+    margin: 0;
+    padding: 0;
+   text-align: center;
 }
-
 .hero {
   padding: 100px 20px 60px;
 }
