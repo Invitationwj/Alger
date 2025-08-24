@@ -142,7 +142,7 @@ form textarea {
   margin-right: 20px;
   border: none;
 }
-.conteneur-texte {
+/*.conteneur-texte {
   background-color: rgba(255, 255, 255, 0.9); /* fond blanc translucide */
   padding: 40px;
   max-width: 60%;
@@ -151,4 +151,4 @@ form textarea {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
     text-align: center;
-}
+}*/
