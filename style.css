@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;            /* pas de répétition */
   background-color: #fffaf6;               /* couleur de secours */
   margin: 0;
-padding: 0 10px;
+
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -65,6 +65,8 @@ footer {
   }
    .conteneur-texte {
      width: 100%;
+    padding: 30px 20px;
+    box-sizing: border-box;
    }
    .hero {
        width: 100%;
