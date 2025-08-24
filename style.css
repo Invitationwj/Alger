@@ -64,8 +64,7 @@ footer {
     padding: 0 15px;
   }
    .conteneur-texte {
-       max-width: 100%;
-    padding: 15px 10px;
+     width: 100%;
    }
    .ligne-sous-titre {
        max-width: 20%;
