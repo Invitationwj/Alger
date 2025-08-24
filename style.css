@@ -62,21 +62,19 @@ footer {
 }
 
 button, input[type="submit"] {
-  background-color: #A8E6A3; 
-  color: #fefefe 
+background-color: #a8d5a2; /* vert clair */
+  color: white; /* couleur du texte */
   border: none;
-  padding: 12px 28px;
-  border-radius: 30px;
-  font-family: 'Quicksand', sans-serif;
+  padding: 12px 24px;
   font-size: 16px;
-font-color: #666; 
+  border-radius: 8px;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease;
+
 }
 
 button:hover, input[type="submit"]:hover {
-  background-color: #8fd890;
+  background-color: #94c994;
   transform: translateY(-2px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
