@@ -106,7 +106,7 @@ form textarea {
     width: 35%;
     padding: 12px;
     margin-bottom: 15px;
-    border: none;
+   border: 1px solid #b5d8b5; /* vert très doux */
     background-color: #fefefe;
     }
     input[type="checkbox"] {
