@@ -63,6 +63,12 @@ footer {
   .invitation-text {
     padding: 0 15px;
   }
+   .conteneur-texte {
+      max-width: 90%;
+   }
+   .ligne-sous-titre {
+       max-width: 20%;
+      }
 }
 
 button, input[type="submit"] {
@@ -106,7 +112,7 @@ form textarea {
     width: 35%;
     padding: 12px;
     margin-bottom: 15px;
-   border: 1px solid #b5d8b5; /* vert très doux */
+   border: 1px solid #ccc; /* gris très doux */
     background-color: #fefefe;
     }
     input[type="checkbox"] {
