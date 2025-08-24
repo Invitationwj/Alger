@@ -106,11 +106,10 @@ h1, h2, .titre-mariage {
 form input[type="text"],
 form input[type="email"],
 form textarea {
-    width: 100%;
+    width: 25%%;
     padding: 12px;
     margin-bottom: 15px;
-    border: 1px solid #ccc; /* Bord doux */
-    border-radius: 8px;
+    border: none;
     background-color: #fefefe;
     }
     input[type="checkbox"] {
