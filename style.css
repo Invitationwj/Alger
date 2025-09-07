@@ -1,7 +1,7 @@
 
 
  body {
-  background-image: url("Invitalger.jpg");
+  /*background-image: url("Invitalger.jpg");/*
   background-size: 100% 100%;   /* largeur 100%, hauteur auto */
   background-repeat: no-repeat;
   background-position: top center;
