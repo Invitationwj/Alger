@@ -1,12 +1,12 @@
 
-body {
+
+ body {
   background-image: url("Invitalger.jpg");
-  background-size: contain;  /* affiche toute l’image */
+  background-size: 100% auto;   /* largeur 100%, hauteur auto */
   background-repeat: no-repeat;
-  background-position: center;
-  background-color: #fffaf6; /* zones vides comblées */
-  margin: 0;
-  font-family: 'Cormorant Garamond', serif;
+  background-position: top center;
+  background-color: #ffff;
+
 }
 
 .hero {
