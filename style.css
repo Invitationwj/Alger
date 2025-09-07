@@ -151,3 +151,15 @@ form textarea {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
     text-align: center; }
+
+
+.image-container {
+  width: 100%;       /* prend toute la largeur dispo */
+  text-align: center;
+}
+
+.full-img {
+  width: 100%;       /* toujours 100% de la largeur de l’écran */
+  height: auto;      /* garde les proportions originales */
+  display: block;    /* supprime les espaces indésirables */
+}
