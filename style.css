@@ -103,14 +103,8 @@ footer {
    .ligne-sous-titre {
        max-width: 20%;
       }
-     button, input[type="submit"] {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    box-sizing: border-box;
-  }
- 
-}
+
+
 
 button, input[type="submit"] {
 background-color: #a8d5a2; /* vert clair */
