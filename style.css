@@ -56,10 +56,27 @@ footer {
   color: #aaa;
 }
 
-@media (max-width: 300px) {
+  .image-container img {
+  width: 100%;        /* toujours la largeur dispo */
+  height: auto;       /* garde les proportions */
+  border-radius: 12px; /* arrondi si tu veux garder le style */
+}
+
+@media (max-width: 768px) {
+  .conteneur-texte {
+    max-width: 100%;   /* pas de limite sur mobile */
+    padding: 20px;     /* moins de marge pour laisser plus de place à l’image */
+  }
   h1 {
     font-size: 2em;
   }
+  #video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+  }
+}
 
   .invitation-text {
    font-size: 1.2em;
