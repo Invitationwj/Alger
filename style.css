@@ -70,12 +70,6 @@ footer {
   h1 {
     font-size: 2em;
   }
-  #video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-  }
 }
 
   .invitation-text {
