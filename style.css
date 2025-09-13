@@ -10,6 +10,7 @@ body, html {
   background-position: top center;
   background-color: #ffff;
      background-image: url("Invit Alger.jpg"); /* ton image */
+  background-size: cover;
 
 }
 
