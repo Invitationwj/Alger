@@ -9,6 +9,8 @@ body, html {
   background-repeat: no-repeat;
   background-position: top center;
   background-color: #ffff;
+     background-image: url("Invit Alger.jpg"); /* ton image */
+
 }
 
 .hero {
@@ -68,17 +70,7 @@ footer {
   line-height: 1.8;
   padding: 0 15px;
   }
-   .conteneur-texte {
-     width: 100%;
-    padding: 0px 0px;
-      max-width: 100%;
-      margin: 0px 0px;
-  box-sizing: border-box;
-  border-radius: 1px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-    text-align: center;
-   }
+  
    .hero {
        width: 100%;
       margin: 0px 0px;
@@ -147,6 +139,18 @@ form textarea {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
     text-align: center; }
+
+ /*.conteneur-texte {
+     width: 100%;
+    padding: 0px 0px;
+      max-width: 100%;
+      margin: 0px 0px;
+  box-sizing: border-box;
+  border-radius: 1px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+    text-align: center;
+   }*/
 
 
 .image-container {
