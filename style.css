@@ -11,7 +11,7 @@ body, html {
   background-color: #ffff;
      background-image: url("Invit Alger.jpg"); /* ton image */
   background-size: cover;
-  min-height: 100vh;
+  min-height: 200vh;
   background-attachment: fixed; /* 🔥 le fond reste fixé et visible même si peu de contenu */
   padding-bottom: 200px;
 
