@@ -62,22 +62,6 @@ footer {
   border-radius: 12px; /* arrondi si tu veux garder le style */
 }
 
-@media (max-width: 768px) {
-  .conteneur-texte {
-    max-width: 100%;   /* pas de limite sur mobile */
-    padding: 20px;     /* moins de marge pour laisser plus de place à l’image */
-  }
-  h1 {
-    font-size: 2em;
-  }
-   .full-img {
-  width: 100%;
-  height: 100vh;        /* prend toute la hauteur de l’écran */
-  object-fit: cover;    /* recadre sans déformer */
-  object-position: center; /* centre l’image */
-  display: block;
-}
-}
 
   .invitation-text {
    font-size: 1.2em;
@@ -175,3 +159,41 @@ form textarea {
   height: auto;      /* garde les proportions originales */
   display: block;    /* supprime les espaces indésirables */
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .invitation-text {
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form textarea,
+  form select {
+    width: 90%; /* prend presque toute la largeur sur mobile */
+    font-size: 1em;
+  }
+
+  button, input[type="submit"] {
+    width: auto; /* bouton pas énorme */
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+
+  .ligne-sous-titre {
+    max-width: 60%;
+  }
+
+  .flower {
+    max-width: 120px;
+  }
+}
+
