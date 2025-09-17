@@ -1,100 +1,159 @@
-
-    
-
-  <!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Invitation de mariage — W & J</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    *{box-sizing:border-box;margin:0;padding:0}
-    html,body{height:100%;font-family:'Cormorant', serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation de mariage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cormorant', serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url('mariage.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
 
-    body{
-      background-image: url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1650&q=80&ixlib=rb-4.0.3&s=');
-      background-size:cover;
-      background-position:center;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      padding:2rem;
-    }
+        .invitation-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 2em;
+            margin: 1em;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            text-align: center;
+            box-sizing: border-box;
+        }
 
-    .card{
-      width:100%;
-      max-width:780px;
-      background: rgba(255,255,255,0.88);
-      border-radius:18px;
-      box-shadow:0 10px 30px rgba(0,0,0,0.18);
-      padding:36px 34px;
-      font-size:18px;
-      line-height:1.6;
-    }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            font-weight: 700;
+        }
 
-    h1{font-size:32px;margin-bottom:18px}
-    p{margin-bottom:16px}
+        .text-content {
+            text-align: left;
+            font-size: 1.1em;
+        }
 
-    form{margin:20px 0;font-size:17px}
-    label{display:block;margin:10px 0 6px 0;font-weight:600}
-    input[type="text"]{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.2);font-family:'Cormorant', serif;font-size:16px}
-    .options{margin:14px 0}
-    .options label{font-weight:400;display:flex;align-items:center;gap:8px;cursor:pointer}
-    input[type="radio"]{transform:scale(1.2)}
-    button{margin-top:18px;padding:12px 20px;font-family:'Cormorant', serif;font-size:17px;border:none;border-radius:10px;background:#000;color:#fff;cursor:pointer;transition:background 0.3s}
-    button:hover{background:#333}
+        .text-content p, .text-content div {
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
 
-    @media (max-width:820px){
-      .card{padding:28px;font-size:17px}
-      h1{font-size:28px}
-    }
+        .date-location {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 1.5em;
+        }
 
-    @media (max-width:420px){
-      .card{padding:20px;font-size:16px}
-      h1{font-size:24px}
-    }
-  </style>
+        .rsvp-form {
+            margin-top: 2em;
+            border-top: 1px solid #ccc;
+            padding-top: 1em;
+        }
+
+        .rsvp-form label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+
+        .rsvp-form input[type="text"] {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            box-sizing: border-box;
+            font-family: 'Cormorant', serif;
+        }
+
+        .rsvp-form input[type="radio"] {
+            margin-right: 0.5em;
+        }
+
+        .rsvp-form textarea {
+            width: 100%;
+            padding: 0.5em;
+            box-sizing: border-box;
+            font-family: 'Cormorant', serif;
+        }
+
+        .signature {
+            margin-top: 2em;
+            text-align: right;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .invitation-card {
+                padding: 1.5em;
+            }
+            .text-content {
+                font-size: 1em;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Chers amis,</h1>
-
-    <p>C’est avec une immense joie que nous vous annonçons un événement spécial cet automne — notre mariage 🙌🏻</p>
-
-    <p>📅 Samedi 1er novembre 2025<br>
-    🕖 À partir de 19h<br>
-    📍 Val d’Hydra, Alger</p>
-
-    <p>Nous serions ravis de partager avec vous ce moment unique, empreint d’amour et de convivialité.<br>
-    Votre présence à nos côtés sera le plus beau des cadeaux.</p>
-
-    <p>🙏 Merci de confirmer votre présence avant le 1 octobre 2025 (après, vous risquez d’avoir droit à nos relances intensives sur WhatsApp 📲).</p>
-
-    <form>
-      <label for="name">NOM / PRÉNOM</label>
-      <input type="text" id="name" name="name" required>
-
-      <div class="options">
-        <label><input type="radio" name="presence" value="oui" required> Oui, je viens ! (et je compte bien mettre le feu au dancefloor )</label>
-        <label><input type="radio" name="presence" value="non"> Non, je ne viens pas… (et je le regretterai toute ma vie )</label>
-      </div>
-
-      <button type="submit">Envoyer ma réponse</button>
-    </form>
-
-    <p>🍽️ Pour le dîner, qui débutera à 20h, si vous avez des allergies, des restrictions alimentaires merci de nous l’indiquer en commentaire ci-dessous.</p>
-
-    <p><strong>Dress code:</strong><br>
-    Femmes: Tenue traditionnelle<br>
-    Hommes: venez comme vous êtes ..( mais au minimum en costard + chemise)</p>
-
-    <p>Nous avons hâte de vivre ce moment mémorable avec vous !</p>
-
-    <p>On vous dit à très vite 🙂</p>
-
-    <p>Avec toute notre affection,<br>
-    W & J</p>
-  </div>
+    <div class="invitation-card">
+        <div class="text-content">
+            <p>Chers amis,</p>
+            <p>C’est avec une immense joie que nous vous annonçons un événement spécial cet automne — notre mariage 🙌🏻</p>
+            
+            <p class="date-location">
+                📅 Samedi 1er novembre 2025<br>
+                🕖 À partir de 19h<br>
+                📍 Val d’Hydra, Alger
+            </p>
+            
+            <p>Nous serions ravis de partager avec vous ce moment unique, empreint d’amour et de convivialité.<br>
+            Votre présence à nos côtés sera le plus beau des cadeaux.</p>
+            
+            <p>🙏 Merci de confirmer votre présence avant le 1 octobre 2025 (après, vous risquez d’avoir droit à nos relances intensives sur WhatsApp 📲).</p>
+            
+            <div class="rsvp-form">
+                <label for="nom">NOM / PRÉNOM</label>
+                <input type="text" id="nom" name="nom">
+                
+                <p>
+                    <input type="radio" id="oui" name="presence" value="oui">
+                    <label for="oui">Oui, je viens ! (et je compte bien mettre le feu au dancefloor )</label>
+                </p>
+                <p>
+                    <input type="radio" id="non" name="presence" value="non">
+                    <label for="non">Non, je ne viens pas… (et je le regretterai toute ma vie ).</label>
+                </p>
+                
+                <p>
+                    🍽️ Pour le dîner, qui débutera à 20h, si vous avez des allergies, des restrictions alimentaires merci de nous l’indiquer en commentaire ci-dessous.
+                </p>
+                <textarea id="commentaires" name="commentaires" rows="4"></textarea>
+            </div>
+            
+            <p><strong>Dress code:</strong><br>
+            Femmes: Tenue traditionnelle<br>
+            Hommes: venez comme vous êtes ..( mais au minimum en costard + chemise)</p>
+            
+            <p>Nous avons hâte de vivre ce moment mémorable avec vous !</p>
+            
+            <p>On vous dit à très vite 🙂</p>
+            
+            <p class="signature">Avec toute notre affection,<br>
+            W & J</p>
+        </div>
+    </div>
 </body>
 </html>
